@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from './Container/Layout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         Hey Bharat
-      </header>
+      </header> */}
+      <Layout />
     </div>
   );
 }
